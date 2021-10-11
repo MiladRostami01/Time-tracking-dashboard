@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Time tracking dashboard</title>
+</head>
+<body>
+  <div class="container">
+    <div class="card user">
+      <div class="user-info">
+        <div class="user-img">
+          <img src="images/image-jeremy.png" alt="">
+        </div>
+        <div>
+          <p>گزارش برای</p>
+          <h1>نام کاربر</h1>
+        </div>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="" id="daily" >روزانه</a></li>
+          <li><a href="" id="weekly">هفتگی</a></li>
+          <li><a href="" id="monthly">ماهانه</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="card work">
+      <div class="bg">
+        <div class="bg-title">Work</div>
+        <img src="images/icon-work.svg" alt="">
+      </div>
+      <div class="card-info">
+        <div class="title">
+          <p>کار</p>
+          <svg width="21px" height="5px" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+             fill="#BBC0FF" fill-rule="evenodd"/>  
+          </svg>
+        </div>
+        <div class="content Work">
+          <h1 class="current"></h1>
+          <p class="previous ">لطفا منتظر بمانید...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card play">
+      <div class="bg">
+      <div class="bg-title">Play</div>
+        <img src="images/icon-play.svg" alt="">
+      </div>
+      <div class="card-info">
+        <div class="title">
+          <p>بازی</p>
+          <svg width="21px" height="5px" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+             fill="#BBC0FF" fill-rule="evenodd"/>  
+          </svg>
+        </div>
+        <div class="content Play">
+          <h1 class="current"></h1>
+          <p class="previous ">لطفا منتظر بمانید...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card study">
+      <div class="bg">
+      <div class="bg-title">Study</div>
+        <img src="images/icon-study.svg" alt="">
+      </div>
+      <div class="card-info">
+      <div class="title">
+          <p>مطالعه</p>
+          <svg width="21px" height="5px" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+             fill="#BBC0FF" fill-rule="evenodd"/>  
+          </svg>
+        </div>
+        <div class="content Study">
+          <h1 class="current"></h1>
+          <p class="previous ">لطفا منتظر بمانید...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card exercise">
+      <div class="bg">
+        <div class="bg-title">Exercise</div>
+        <img src="images/icon-exercise.svg" alt="">
+      </div>
+      <div class="card-info">
+      <div class="title">
+          <p>تمرین</p>
+          <svg width="21px" height="5px" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+             fill="#BBC0FF" fill-rule="evenodd"/>  
+          </svg>
+        </div>
+        <div class="content Exercise">
+          <h1 class="current"></h1>
+          <p class="previous">لطفا منتظر بمانید...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card social">
+      <div class="bg">
+      <div class="bg-title">Social</div>
+        <img src="images/icon-social.svg" alt="">
+      </div>
+      <div class="card-info">
+      <div class="title">
+          <p>شبکه مجازی</p>
+          <svg width="21px" height="5px" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+             fill="#BBC0FF" fill-rule="evenodd"/>  
+          </svg>
+        </div>
+        <div class="content Social">
+          <h1 class="current"></h1>
+          <p class="previous">لطفا منتظر بمانید...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card self-care">
+      <div class="bg">
+        <div class="bg-title">Self Care</div>
+        <img src="images/icon-self-care.svg" alt="">
+      </div>
+      <div class="card-info">
+      <div class="title">
+          <p>خودسازی</p>
+          <svg width="21px" height="5px" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+             fill="#BBC0FF" fill-rule="evenodd"/>  
+          </svg>
+        </div>
+        <div class="content SelfCare">
+          <h1 class="current"></h1>
+          <p class="previous">لطفا منتظر بمانید...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.instagram.com/milad_rostami_01/">Milad Rostami</a>.
+  </div> -->
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,104 @@
+[
+  {
+    "title": "Work",
+    "timeframes": {
+      "daily": {
+        "current": "۳",
+        "previous": "۷"
+      },
+      "weekly": {
+        "current": "۳۲",
+        "previous": "۳۶"
+      },
+      "monthly": {
+        "current": "۱۰۳",
+        "previous": "۱۲۸"
+      }
+    }
+  },
+  {
+    "title": "Play",
+    "timeframes": {
+      "daily": {
+        "current": "۱",
+        "previous": "۲"
+      },
+      "weekly": {
+        "current": "۱۰",
+        "previous": "۸"
+      },
+      "monthly": {
+        "current": "۲۳",
+        "previous": "۲۹"
+      }
+    }
+  },
+  {
+    "title": "Study",
+    "timeframes": {
+      "daily": {
+        "current": "۰",
+        "previous": "۱"
+      },
+      "weekly": {
+        "current": "۴",
+        "previous": "۷"
+      },
+      "monthly": {
+        "current": "۱۳",
+        "previous": "۱۹"
+      }
+    }
+  },
+  {
+    "title": "Exercise",
+    "timeframes": {
+      "daily": {
+        "current": "۱",
+        "previous": "۱"
+      },
+      "weekly": {
+        "current": "۴",
+        "previous": "۵"
+      },
+      "monthly": {
+        "current": "۱۱",
+        "previous": "۱۸"
+      }
+    }
+  },
+  {
+    "title": "Social",
+    "timeframes": {
+      "daily": {
+        "current": "۱",
+        "previous": "۳"
+      },
+      "weekly": {
+        "current": "۵",
+        "previous": "۱۰"
+      },
+      "monthly": {
+        "current": "۲۱",
+        "previous": "۲۳"
+      }
+    }
+  },
+  {
+    "title": "SelfCare",
+    "timeframes": {
+      "daily": {
+        "current": "۰",
+        "previous": "۱"
+      },
+      "weekly": {
+        "current": "۲",
+        "previous": "۲"
+      },
+      "monthly": {
+        "current": "۷",
+        "previous": "۱۱"
+      }
+    }
+  }
+]
