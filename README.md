@@ -1,4 +1,4 @@
-# Time tracking dashboard solution
+# Time tracking dashboard
 
 ## Table of contents
 
@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/MiladRostami01/Time-tracking-dashboard)
-- Live Site URL: [Add live site URL here](https://time-tracking-dashboard-xi.vercel.app/)
+- Solution URL: [My solution](https://github.com/MiladRostami01/Time-tracking-dashboard)
+- Live Site URL: [Time tracking live](https://time-tracking-dashboard-xi.vercel.app/)
 
 ## My process
 
@@ -43,11 +43,11 @@ Users should be able to:
 
 ### What I learned
 
-what I learn here is a bounch of cool stuff like: 
-- how to fetch Data from json file 
-- how to loop on Data informations and cards
-- how to show clock with hour and hours challeng 
-- and the animations which is realy cool ...
+what I learn here is a bunch of cool stuff like:
+how to fetch data from JSON file
+how to loop on information and cards
+how to show clock with hour and hours challenge
+and the animations which are really cool ...
 
 ```html
 <div class="card work">
